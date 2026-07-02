@@ -1,0 +1,368 @@
+Project Goal
+
+AI Interview Coach (Django + Gemini AI)
+
+Duration: 6 Weeks (3–4 hours/day)
+
+📅 Week 1 – Learn Django fast API & Build the Foundation
+Day 1
+Install Python, Django
+Create virtual environment
+Create Django project
+Understand project structure
+Run first server
+
+✅ Milestone 1: Django project runs successfully
+
+Day 2
+
+Learn:
+
+Apps
+URLs
+Views
+Templates
+Static files
+
+Create:
+
+Home Page
+About Page
+Contact Page
+
+✅ Milestone 2: Multi-page website
+
+Day 3
+
+Learn:
+
+Models
+Migrations
+Admin Panel
+
+Create:
+
+Custom models
+Register models in admin
+
+✅ Milestone 3: Database connected
+
+Day 4
+
+Learn:
+
+Django Forms
+Bootstrap integration
+
+Create:
+
+Contact Form
+
+✅ Milestone 4: Form submission
+
+Day 5
+
+Authentication
+
+Register
+Login
+Logout
+Password validation
+
+✅ Milestone 5: User authentication complete
+
+Day 6
+
+Profile Page
+
+Edit profile
+Upload profile photo
+
+✅ Milestone 6
+
+Day 7
+
+Revision + GitHub
+
+Push complete project.
+
+🎉 Week 1 Completed
+
+📅 Week 2 – Resume Module
+Day 8
+
+Create Resume app
+
+Model
+
+Views
+
+URLs
+
+Day 9
+
+Resume Upload
+
+PDF upload
+
+Media settings
+
+Day 10
+
+Extract PDF Text
+
+Using:
+
+pdfplumber
+
+or
+
+PyMuPDF
+Day 11
+
+Save extracted data
+
+Skills
+
+Education
+
+Experience
+
+Day 12
+
+Resume Preview Page
+
+Day 13
+
+Delete/Update Resume
+
+Day 14
+
+Testing
+
+🎉 Week 2 Completed
+
+📅 Week 3 – Interview Module
+Day 15
+
+Interview Models
+
+Interview Session
+
+Question
+
+Answer
+
+Day 16
+
+Interview Dashboard
+
+Select:
+
+Role
+Difficulty
+Day 17
+
+Generate Static Questions
+
+(No AI yet)
+
+Day 18
+
+Interview UI
+
+Question Card
+
+Timer
+
+Next Button
+
+Day 19
+
+Store Answers
+
+Day 20
+
+Result Page
+
+Day 21
+
+Testing
+
+🎉 Week 3 Completed
+
+📅 Week 4 – Gemini AI
+Day 22
+
+Gemini API Setup
+
+API Key
+
+Testing
+
+Day 23
+
+Generate Questions using AI
+
+Day 24
+
+Resume-based Questions
+
+Example:
+
+Resume:
+
+Python
+
+Flask
+
+Machine Learning
+
+Questions generated accordingly
+
+Day 25
+
+Evaluate Answers
+
+Day 26
+
+Generate Feedback
+
+Day 27
+
+Overall Score
+
+Day 28
+
+Testing
+
+🎉 Week 4 Completed
+
+📅 Week 5 – Dashboard & Analytics
+Day 29
+
+History
+
+Previous Interviews
+
+Day 30
+
+Charts
+
+Using Chart.js
+
+Day 31
+
+Average Score
+
+Day 32
+
+Weak Topics
+
+Day 33
+
+Strong Skills
+
+Day 34
+
+Leaderboard (Optional)
+
+Day 35
+
+Testing
+
+🎉 Week 5 Completed
+
+📅 Week 6 – Polish & Deploy
+Day 36
+
+Improve UI
+
+Animations
+
+Cards
+
+Icons
+
+Day 37
+
+Responsive Design
+
+Day 38
+
+Error Handling
+
+404
+
+500
+
+Validation
+
+Day 39
+
+README
+
+Screenshots
+
+Installation Guide
+
+Day 40
+
+Deploy
+
+(Render, Railway, or another platform)
+
+Day 41
+
+Bug Fixes
+
+Day 42
+
+Portfolio Ready 🎉
+
+📁 Final Project Structure
+AI_Interview_Coach/
+│
+├── accounts/
+├── dashboard/
+├── interviews/
+├── resumes/
+├── static/
+├── media/
+├── templates/
+├── config/
+├── requirements.txt
+├── .env
+├── .gitignore
+└── manage.py
+🏆 Final Features
+
+✅ Authentication
+
+✅ Profile Management
+
+✅ Resume Upload
+
+✅ PDF Parsing
+
+✅ Resume Preview
+
+✅ AI Question Generation
+
+✅ Resume-Based Questions
+
+✅ AI Answer Evaluation
+
+✅ AI Feedback
+
+✅ Interview History
+
+✅ Performance Dashboard
+
+✅ Charts
+
+✅ Responsive Design
+
+✅ Admin Panel
+
+✅ Deployment
