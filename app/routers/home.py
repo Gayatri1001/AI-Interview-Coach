@@ -1,4 +1,6 @@
-from fastapi import APIRouter
+from fastapi import APIRouter,status
+from app.schemas.interview import Candidate
+
 
 router = APIRouter()
 
@@ -26,4 +28,12 @@ def search(skill:str, experience:int):
     return{
         "skill" : skill,
         "experience": experience
+    }
+
+@router.post("/candidate",
+    status_code=status.HTTP_201_CREATED)
+def create_candidate(candidate:Candidate):
+    return{
+        "message": "Candidate added successfully",
+        "candidate": candidate
     }
